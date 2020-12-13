@@ -21,7 +21,7 @@ jobs:
           terraform_version: 0.13.5
           # more setup-terraform configuration. See https://github.com/hashicorp/setup-terraform#usage
 
-      - uses: env0/terratag-action@vf
+      - uses: env0/terratag-action@vv
         with:
           cli_args: -h
           # more terratag configuration. See https://github.com/env0/terratag#usage
